@@ -1,5 +1,7 @@
 liftweb-LinkShare
 
+History
+
 2007-12-05
 	Original version by Jorge Ortiz
 	http://www.scala-blogs.org/2007/12/dynamic-web-applications-with-lift-and.html
@@ -7,5 +9,19 @@ liftweb-LinkShare
 2011-08-13
 	Updated for Lift 2.3 by Peter MacMillan
 	http://github.com/writeopen/liftweb-LinkShare
+
+Quick Start
+
+	0. Install Java
+	1. Start the SBT:
+				./sbt
+
+	2. Update dependencies:
+				update
+
+	3. Launch Jetty:
+				jetty-run
+
+	Open this in a browser: http://localhost:8080/
 
 
